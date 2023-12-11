@@ -1,0 +1,6 @@
+module com.example.laptopconfig {
+    requires javafx.controls;
+    requires javafx.fxml;
+    opens com.example.laptopconfig to javafx.fxml;
+    exports com.example.laptopconfig;
+}
